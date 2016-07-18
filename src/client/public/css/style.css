@@ -1,0 +1,68 @@
+.container{
+	margin: 20px auto;
+}
+
+h1{
+	font-size: 24px;
+}
+
+h1 input{
+	margin-left: 5px;
+	padding-left: 5px;
+	cursor: pointer;
+}
+
+.game{
+	border: 1px solid #EEE;
+}
+
+.game:hover{
+	background: #FAFAFA;
+}
+
+.game table{
+	width: 100%;
+}
+
+.game td {
+	padding: 10px;
+	text-align: center;
+}
+
+.game td.team-name{
+	min-width: 100px;
+	text-align: left;
+}
+
+.game td.team-name.win{
+	font-weight: bold;
+}
+
+.game td.score{
+	min-width: 40px;
+}
+
+.game button.btn.btn-primary{
+	background-color: #1DB0D8;
+	border-color: #1890B1;
+}
+
+.game button.btn.btn-primary[disabled]:hover{
+	opacity: 0.65;
+}
+
+.game button.btn.btn-primary:hover{
+	opacity: 0.9;
+}
+
+.game-details{
+	border-top: 1px dashed #EEE;
+}
+
+.game-details table{
+	padding: 10px;
+}
+
+.game-details table td{
+	text-align: left;
+}
